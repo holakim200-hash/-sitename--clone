@@ -1,1 +1,3 @@
 # -sitename--clone
+-html
+-css
