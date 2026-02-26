@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.menu {
+  display: none;
+  background: lightblue;
+  padding: 20px;
+  width: 800px;
+  height: 800px;
+}
+
+.menu.active {
+  display: block;
+}
+</style>
+</head>
+
+<body>
+<button class="menuBtn">메뉴열기</button>
+<div class="menu">메뉴입니다</div>
+
+<script>
+const btn = document.querySelector('.menuBtn');
+const menu = document.querySelector('.menu');
+
+btn.addEventListener('click', function() {
+  menu.classList.toggle('active');
+});
+</script>
+
+</body>
+</html>

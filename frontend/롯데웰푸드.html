@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+				<h1><a href="https://www.lotte.co.kr/main.do"><img src="./images/img_logo_1.png" alt="LOTTE"></a></h1>
+				<a href="#none" id="gnb" class="btn_all"><img src="./images/btn_allmenu.png" alt="주메뉴 열기"></a>
+				<div class="gnb" style="display: none; left: -1106px;">
+					<a href="#none" class="gnb_close" style="transform: matrix(1, 0, 0, 1, 0, 0);"><img src="./images/btn_gnb_close.png" alt="주메뉴 닫기"></a>
+					<div class="inner">
+						<div class="innner_wrap">
+							<p class="tit_gnb"><a href="https://www.lotte.co.kr/csv/main.do?tab=csvTab_1">CSV</a></p>
+							<ul>
+								<li><a href="https://www.lotte.co.kr/csv/main.do?tab=csvTab_1">영유아</a></li>
+								<li><a href="https://www.lotte.co.kr/csv/main.do?tab=csvTab_2">아동·청소년</a></li>
+								<li><a href="https://www.lotte.co.kr/csv/main.do?tab=csvTab_3">청년</a></li>
+								<li><a href="https://www.lotte.co.kr/csv/main.do?tab=csvTab_4">중·노년</a></li>
+								<li><a href="https://www.lotte.co.kr/csv/main.do?tab=csvTab_5">기타</a></li>
+							</ul>
+						</div>
+						<div class="innner_wrap">
+							<p class="tit_gnb"><a href="https://www.lotte.co.kr/business/main.do#business01" id="btn-bsn">BUSINESS</a></p>
+							<ul>
+								<li><a href="https://www.lotte.co.kr/business/main.do#business01" class="bizBtn">식품</a></li>
+								<li><a href="https://www.lotte.co.kr/business/main.do#business02" class="bizBtn">유통</a></li>
+								<li><a href="https://www.lotte.co.kr/business/main.do#business03" class="bizBtn">화학/건설/제조</a></li>
+								<li><a href="https://www.lotte.co.kr/business/main.do#business04" class="bizBtn">관광/서비스/금융</a></li>
+								
+							</ul>
+							
+							<script type="text/javascript">
+								$(function() {
+									$('.bizBtn').on('click', function() {
+										$('.dim').removeClass('on'),
+										TweenMax.to( '.gnb' , .5, { left: '-1046px' , ease: Power4.easeOut});
+										$.fn.fullpage.setAllowScrolling(true);
+									});
+								});
+							</script>
+							
+						</div>
+						<div class="innner_wrap ir">
+							<p class="tit_gnb"><a href="https://www.lotte.co.kr/about/mission.do">ABOUT LOTTE</a></p>
+							<ul>
+								<li><a href="#">미션</a></li>
+								<li><a href="#">비전</a></li>
+								<li><a href="#">핵심가치</a></li>
+								<li><a href="#">CEO</a></li>
+								<li><a href="#">기업문화</a></li>
+								<li><a href="#">역사관</a></li>
+								<li><a href="#">CI</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">인권경영헌장</a></li>
+								<li><a href="#">환경경영헌장</a></li><!-- 2022-10-24 -->
+								<li><a href="#">AI 윤리헌장</a></li>
+							</ul>
+						</div>
+						<div class="innner_wrap">
+							<p class="tit_gnb"><a href="#">ESG</a></p>
+							<ul>
+								<li><a href="#">롯데 ESG</a></li>
+								<li><a href="#">지속가능경영보고서</a></li>
+								<li><a href="#">ESG 평가</a></li>
+								<li><a href="#">ESG 뉴스</a></li>
+							</ul>
+						</div>
+						<div class="innner_wrap ir">
+							<p class="tit_gnb"><a href="#">COMPLIANCE</a></p>
+							<ul>
+								<li><a href="#">롯데의 컴플라이언스</a></li>
+								<li><a href="#">컴플라이언스위원회</a></li>
+								<li><a href="#">행동강령</a></li>
+								<li><a href="#">파트너사 행동규범</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">글로벌 부패방지 가이드라인</a></li>
+                				<li><a href="#">ISO37301 규범준수경영시스템</a></li>
+								<li><a href="#">신문고</a></li>
+							</ul>
+						</div>
+						<div class="innner_wrap">
+							<p class="tit_gnb"><a href="#">PR</a></p>
+							<ul>
+								<li><a href="#">뉴스</a></li>
+								<li><a href="#">영상</a></li>
+								<li><a href="#">SNS</a></li>
+								<li><a href="#">사보</a></li>
+								<li><a href="#">브로슈어</a></li>								
+							</ul>
+						</div>
+						<div class="innner_wrap ir">
+							<p class="tit_gnb"><a href="#">IR</a></p>
+							 <ul>
+							 	<li><a href="#">지배구조</a></li>
+							 	<li><a href="#">주주정책</a></li>
+							 	<li><a href="#">지배구조헌장 및 규정</a></li>
+							 	<li><a href="#">공시</a></li>
+							 	<li><a href="#">공고</a></li>
+							 	<li><a href="#">IR자료</a></li>
+							 </ul>
+							 <ul>
+								<li><a href="#">주가정보</a></li>
+							 	<li><a href="#">재무정보</a></li>
+							 	
+							 	<li><a href="#">Contact IR</a></li>
+							 </ul>
+						</div>
+						<div class="#">
+							<p class="tit_gnb"><a href="#">CAREERS</a></p>
+							<ul>
+								<li><a href="#">인재상</a></li>
+								<li><a href="#">채용전형</a></li>
+								<li><a href="#">인사제도</a></li>
+							</ul>
+						</div>
+						<div class="innner_wrap last">
+							<p class="tit_gnb"><a href="#">CS CENTER</a></p>
+							<ul>
+								<li><a href="#">문의하기</a></li>
+								<li><a href="#">오시는 길</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="dim"></div>
+				<div class="language_box">
+					<a href="#" class="now_language on" title="선택됨">KR</a>
+					<a href="#" class="now_language">EN</a>
+					<a href="#" class="now_language">CN</a>
+					<a href="#" class="now_language">JP</a>
+					<a href="#" class="now_language">VN</a>
+					<a href="#" class="now_language">ID</a>
+				</div>
+			</div>
+      <div id="container" class="container business_p">
+			<div class="visual">
+				<div class="visual_info" style="background-image:url(/images/L101_01.jpg?v=3);">
+					<div class="visual_tit">
+						<span class="tit_category type_1">
+						<strong id="skip_tit">
+								식품
+						</strong>
+						<strong class="tit_union">롯데웰푸드</strong>
+						<p class="txt_union">세계인의 사랑을 받는 식품업체가 되기 위해 끊임없이 노력하는 롯데제과</p>
+								<a href="https://www.lottewellfood.com/" target="_blank" title="새창열림">대표 사이트 바로가기</a>
+					</div>
+					<span class="ico_scroll"><span class="blind"><!--아래로 스크롤 다운 생략--></span></span>
+				</div>
+				<div class="affiliate_contents">
+					<div class="intro_affiliate">
+						<p class="tit_affiliate">회사소개</p>
+						<div class="intro_area">
+							<p class="img_affiliate"><img src="./images/L101_02.jpg?ver=3" alt="롯데웰푸드 대표 이미지 1"></p>
+							<div class="txt_affiliate">
+								<p>
+									<strong style="word-break:keep-all;">세계인의 사랑을 받는 식품회사</strong>
+									끊임없는 신제품 개발, 다양한 마케팅 전략과 앞선 유통 방식으로 제과 업계의 정상을 지키며, 미래 식품 기술 개발로 국내 식품산업의 선진화, 국제화에 기여하고 있습니다. 나아가 롯데푸드와의 합병을 통해 기존의 제과사업에 HMR, 유지, 육가공 사업이 추가되어 고객 제공 가치를 향상하고 있습니다. 이로써 유아층부터 중장년층에 이르기까지 전연령대의 고객군을 형성하여 생애주기형 브랜드를 운영하고 있습니다.&nbsp; 또한, 8개국 글로벌 현지법인의 네트워크를 활용하여 현지 법인 영업망을 활용한 수출 확대를 지속적으로 이어나갈 것입니다. 이처럼 롯데제과는 국내 식품업계의 리더로서 책임과 역할을 다하고, 나아가 세계인의 사랑을 받는 식품회사가 되기 위해 노력하고 있습니다.
+								</p>
+							</div>
+						</div>
+								<ul class="affiliate_list">
+									<li class="affiliate01">대표이사<span>서정호</span></li>
+									<li class="affiliate02">설립일<span>1967.4.3</span></li>
+									<li class="affiliate03">주 업종<span>껌, 과자, 빙과류, 유지, 유가공, 육가공, 식품 제조 판매</span></li>
+									<li class="affiliate04">주소<span>서울특별시 영등포구 양평로 21길 10</span></li>
+									<li class="affiliate05">전화번호<span>02-2670-6114</span></li>
+								</ul>
+					</div>
+					<div class="core_service">
+						<p class="tit_affiliate">주요 제품 및 서비스</p>
+						<div class="core_contents">
+							<p class="core_visual"><img src="./images/L101_03.jpg?ver=3" alt="롯데웰푸드 대표 이미지 2"></p>
+							<div class="service_slide">
+								<div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 350px;"><ul style="width: auto; position: relative;">
+									
+									<li class="on" style="float: none; list-style: none; position: absolute; width: 400px; z-index: 50; display: block;">
+										<strong>건과류</strong>
+										<p><span>껌, 캔디, 비스킷, 스낵, 초콜릿 등 다양한 종류의 건과류를 생산하고 있습니다. '자일리톨껌', '빼빼로', '꼬깔콘', '가나초콜렛' 등 많은 제품이 전 국민에게 사랑 받고 있습니다.</span></p>
+									</li>
+									
+									<li style="float: none; list-style: none; position: absolute; width: 400px; z-index: 0; display: none;">
+										<strong>빙과류</strong>
+										<p><span>롯데제과는 바, 콘, 컵, 펜슬, 홈타입 등 다양한 형태의 빙과제품을 생산하며 국내 빙과 시장을 선도하고 있습니다. </span></p>
+									</li>
+									
+									<li style="float: none; list-style: none; position: absolute; width: 400px; z-index: 0; display: none;">
+										<strong>빵</strong>
+										<p><span>양산빵 브랜드 ‘롯데기린’을 선보이며, ‘기린골드라벨’ 등 다양한 제품을 생산하고 있습니다.</span></p>
+									</li>
+									
+									<li style="float: none; list-style: none; position: absolute; width: 400px; z-index: 0; display: none;">
+										<strong>식용유지/식품소재</strong>
+										<p><span>버터, 마아가린, 쇼트닝, 식용유, 휘핑크림, 향료/향신료, 초코코팅, 시즈닝 등</span></p>
+									</li>
+									
+									<li style="float: none; list-style: none; position: absolute; width: 400px; z-index: 0; display: none;">
+										<strong>육가공</strong>
+										<p><span>햄, 소시지, 어육, 캔햄, 패티류, 까스후라이류, 핫도그 등</span></p>
+									</li>
+									
+									<li style="float: none; list-style: none; position: absolute; width: 400px; z-index: 0; display: none;">
+										<strong>파스퇴르</strong>
+										<p><span>우유, 분유, 발효유, 주스/두유 등</span></p>
+									</li>
+									
+									<li style="float: none; list-style: none; position: absolute; width: 400px; z-index: 0; display: none;">
+										<strong>푸드서비스</strong>
+										<p><span>단체급식, 식자재</span></p>
+									</li>
+									
+									<li style="float: none; list-style: none; position: absolute; width: 400px; z-index: 0; display: none;">
+										<strong>가정간편식</strong>
+										<p><span>면류, 식용유, 버터, 냉동 디저트, 냉동밥, 국탕류 등</span></p>
+									</li>
+									
+									<li style="float: none; list-style: none; position: absolute; width: 400px; z-index: 0; display: none;">
+										<strong>원두커피</strong>
+										<p><span>홀빈, 분쇄, 편의형 제품 등</span></p>
+									</li>
+									
+								</ul></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div><div class="bx-pager-item"><a href="" data-slide-index="3" class="bx-pager-link">4</a></div><div class="bx-pager-item"><a href="" data-slide-index="4" class="bx-pager-link">5</a></div><div class="bx-pager-item"><a href="" data-slide-index="5" class="bx-pager-link">6</a></div><div class="bx-pager-item"><a href="" data-slide-index="6" class="bx-pager-link">7</a></div><div class="bx-pager-item"><a href="" data-slide-index="7" class="bx-pager-link">8</a></div><div class="bx-pager-item"><a href="" data-slide-index="8" class="bx-pager-link">9</a></div></div><div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+							</div>
+						</div>
+					</div>
+								<div class="network_area">
+									<p class="tit_affiliate">네트워크</p>
+									<p class="txt_network">세계 곳곳에 위치한 네트워크의 자세한 정보를 확인하세요</p>
+										<div class="tbl01">
+											<table>
+												<caption>네트워크 위치</caption>
+												<colgroup>
+													<col style="width:250px;">
+													<col>
+													<col style="width:250px;">
+												</colgroup>
+												<thead>
+													<tr>
+														<th scope="col">구분</th>
+														<th scope="col">주소</th>
+														<th scope="col">전화번호</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>영등포 공장</td>
+														<td class="left">서울특별시 영등포구 양평로21길 10</td>
+														<td class="left">02-2670-6114~5</td>
+													</tr>
+													<tr>
+														<td>양산공장</td>
+														<td class="left">경상남도 양산시 양산대로 1158</td>
+														<td class="left">055-370-6114</td>
+													</tr>
+													<tr>
+														<td>평택공장</td>
+														<td class="left">경기도 평택시 진위면 경기대로 1952</td>
+														<td class="left">031-667-2201~5</td>
+													</tr>
+													<tr>
+														<td>대전공장</td>
+														<td class="left">대전광역시 대덕구 문평동로18번길 21</td>
+														<td class="left">042-930-5114</td>
+													</tr>
+													<tr>
+														<td>천안공장</td>
+														<td class="left">충청남도 천안시 서북구 2공단4로 19</td>
+														<td class="left">041-621-4161</td>
+													</tr>
+													<tr>
+														<td>김천공장</td>
+														<td class="left">경상북도 김천시 공단3길 94</td>
+														<td class="left">054-420-2500</td>
+													</tr>
+													<tr>
+														<td>횡성공장 </td>
+														<td class="left">강원도 횡성군 안흥면 봉화로 790</td>
+														<td class="left">033-340-6500</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+								</div>
+					<div class="affiliate_wrap">
+						<div class="affiliate_view">
+							<div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 60px;"><ul style="width: 415%; position: relative; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">		
+										<li style="float: left; list-style: none; position: relative; width: 1020px;">
+											<a href="compDetail.do?compCd=L101">	
+														롯데웰푸드
+											</a>
+											<a href="compDetail.do?compCd=L102">
+														롯데칠성음료<br>(음료BG)
+											</a>
+											<a href="compDetail.do?compCd=L103">		
+														롯데칠성음료<br>(주류BG)
+											</a>
+											<a href="compDetail.do?compCd=L105">
+														롯데 네슬레
+											</a>
+										</li>
+										<li style="float: left; list-style: none; position: relative; width: 1020px;">
+											<a href="compDetail.do?compCd=L106">	
+														롯데아사히주류
+											</a>
+											<a href="compDetail.do?compCd=L107">	
+														롯데피플네트웍스
+											</a>
+											<a href="compDetail.do?compCd=L108">					
+														롯데중앙연구소
+											</a>
+											<a href="compDetail.do?compCd=L109">		
+														롯데지알에스			
+											</a>
+										</li>
+							</ul></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+</body>
+</html>
